@@ -2,26 +2,30 @@ import XCTest
 
 final class FunFactsAppUITests: XCTestCase {
     let app = XCUIApplication()
-    
+
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
         app.launch()
     }
-    
-    func test_fact1() {
-        app.buttons["Fact 1"].tap()
-        XCTAssert(app.staticTexts["The largest piece of fossilised dinosaur poo discovered is over 30cm long and over two litres in volume!"].exists, "the text is the not right one")
+
+    func test_facts() {
+        verifyFact(forButton: "Fact 1", expectedText: "The largest piece of fossilised dinosaur poo discovered is over 30cm long and over two litres in volume!")
+
+        verifyFact(forButton: "Fact 2", expectedText: "A chicken once lived for 18 months without a head!")
+
+        verifyFact(forButton: "Fact 3", expectedText: "Animals can experience time differently from humans!")
+        
+        verifyFact(forButton: "About", expectedText: "About This App")
     }
-    
-    func test_fact2() {
-        app.buttons["Fact 2"].tap()
-        XCTAssert(app.staticTexts["A chicken once lived for 18 months without a head!"].exists, "the text is the not right one")
-    }
-    
-    func test_fact3() {
-        app.buttons["Fact 3"].tap()
-        XCTAssert(app.staticTexts["Animals can experience time differently from humans!"].exists, "the text is the not right one")
+
+    private func verifyFact(forButton buttonTitle: String, expectedText: String) {
+        let button = app.buttons[buttonTitle]
+        XCTAssertTrue(button.exists, "Button \(buttonTitle) does not exist")
+        button.tap()
+        
+        let factLabel = app.staticTexts[expectedText]
+        XCTAssertTrue(factLabel.exists, "Expected text '\(expectedText)' not found after tapping \(buttonTitle)")
     }
 }
 
