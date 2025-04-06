@@ -1,10 +1,3 @@
-//
-//  FunFactApp.swift
-//  FunFact
-//
-//  Created by Rahaf Jannoud on 06.04.25.
-//
-
 import SwiftUI
 
 @main

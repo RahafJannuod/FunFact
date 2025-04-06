@@ -14,7 +14,7 @@
 			remoteGlobalIDString = 3AA9EF592DA2936900B0CDA1;
 			remoteInfo = FunFact;
 		};
-		3AA9EF762DA2936B00B0CDA1 /* PBXContainerItemProxy */ = {
+		3AF6762C2DA2E0C90036D280 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3AA9EF522DA2936900B0CDA1 /* Project object */;
 			proxyType = 1;
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		3AA9EF5A2DA2936900B0CDA1 /* FunFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA9EF6B2DA2936B00B0CDA1 /* FunFactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AA9EF752DA2936B00B0CDA1 /* FunFactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF676262DA2E0C90036D280 /* FunFactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 			path = FunFactTests;
 			sourceTree = "<group>";
 		};
-		3AA9EF782DA2936B00B0CDA1 /* FunFactUITests */ = {
+		3AF676272DA2E0C90036D280 /* FunFactUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = FunFactUITests;
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AA9EF722DA2936B00B0CDA1 /* Frameworks */ = {
+		3AF676232DA2E0C90036D280 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +77,7 @@
 			children = (
 				3AA9EF5C2DA2936900B0CDA1 /* FunFact */,
 				3AA9EF6E2DA2936B00B0CDA1 /* FunFactTests */,
-				3AA9EF782DA2936B00B0CDA1 /* FunFactUITests */,
+				3AF676272DA2E0C90036D280 /* FunFactUITests */,
 				3AA9EF5B2DA2936900B0CDA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			children = (
 				3AA9EF5A2DA2936900B0CDA1 /* FunFact.app */,
 				3AA9EF6B2DA2936B00B0CDA1 /* FunFactTests.xctest */,
-				3AA9EF752DA2936B00B0CDA1 /* FunFactUITests.xctest */,
+				3AF676262DA2E0C90036D280 /* FunFactUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,27 +140,27 @@
 			productReference = 3AA9EF6B2DA2936B00B0CDA1 /* FunFactTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3AA9EF742DA2936B00B0CDA1 /* FunFactUITests */ = {
+		3AF676252DA2E0C90036D280 /* FunFactUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AA9EF852DA2936B00B0CDA1 /* Build configuration list for PBXNativeTarget "FunFactUITests" */;
+			buildConfigurationList = 3AF6762E2DA2E0C90036D280 /* Build configuration list for PBXNativeTarget "FunFactUITests" */;
 			buildPhases = (
-				3AA9EF712DA2936B00B0CDA1 /* Sources */,
-				3AA9EF722DA2936B00B0CDA1 /* Frameworks */,
-				3AA9EF732DA2936B00B0CDA1 /* Resources */,
+				3AF676222DA2E0C90036D280 /* Sources */,
+				3AF676232DA2E0C90036D280 /* Frameworks */,
+				3AF676242DA2E0C90036D280 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AA9EF772DA2936B00B0CDA1 /* PBXTargetDependency */,
+				3AF6762D2DA2E0C90036D280 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3AA9EF782DA2936B00B0CDA1 /* FunFactUITests */,
+				3AF676272DA2E0C90036D280 /* FunFactUITests */,
 			);
 			name = FunFactUITests;
 			packageProductDependencies = (
 			);
 			productName = FunFactUITests;
-			productReference = 3AA9EF752DA2936B00B0CDA1 /* FunFactUITests.xctest */;
+			productReference = 3AF676262DA2E0C90036D280 /* FunFactUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +180,7 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 3AA9EF592DA2936900B0CDA1;
 					};
-					3AA9EF742DA2936B00B0CDA1 = {
+					3AF676252DA2E0C90036D280 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 3AA9EF592DA2936900B0CDA1;
 					};
@@ -202,7 +202,7 @@
 			targets = (
 				3AA9EF592DA2936900B0CDA1 /* FunFact */,
 				3AA9EF6A2DA2936B00B0CDA1 /* FunFactTests */,
-				3AA9EF742DA2936B00B0CDA1 /* FunFactUITests */,
+				3AF676252DA2E0C90036D280 /* FunFactUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,7 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AA9EF732DA2936B00B0CDA1 /* Resources */ = {
+		3AF676242DA2E0C90036D280 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,7 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AA9EF712DA2936B00B0CDA1 /* Sources */ = {
+		3AF676222DA2E0C90036D280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,10 +261,10 @@
 			target = 3AA9EF592DA2936900B0CDA1 /* FunFact */;
 			targetProxy = 3AA9EF6C2DA2936B00B0CDA1 /* PBXContainerItemProxy */;
 		};
-		3AA9EF772DA2936B00B0CDA1 /* PBXTargetDependency */ = {
+		3AF6762D2DA2E0C90036D280 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3AA9EF592DA2936900B0CDA1 /* FunFact */;
-			targetProxy = 3AA9EF762DA2936B00B0CDA1 /* PBXContainerItemProxy */;
+			targetProxy = 3AF6762C2DA2E0C90036D280 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -428,6 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FunFact/FunFact.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FunFact/Preview Content\"";
@@ -452,6 +453,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Rahafjd.FunFact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -507,7 +509,7 @@
 			};
 			name = Release;
 		};
-		3AA9EF862DA2936B00B0CDA1 /* Debug */ = {
+		3AF6762F2DA2E0C90036D280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -515,21 +517,18 @@
 				DEVELOPMENT_TEAM = 29KKLQA294;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Rahafjd.FunFactUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunFact;
-				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
-		3AA9EF872DA2936B00B0CDA1 /* Release */ = {
+		3AF676302DA2E0C90036D280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -537,17 +536,15 @@
 				DEVELOPMENT_TEAM = 29KKLQA294;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Rahafjd.FunFactUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FunFact;
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -581,11 +578,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AA9EF852DA2936B00B0CDA1 /* Build configuration list for PBXNativeTarget "FunFactUITests" */ = {
+		3AF6762E2DA2E0C90036D280 /* Build configuration list for PBXNativeTarget "FunFactUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AA9EF862DA2936B00B0CDA1 /* Debug */,
-				3AA9EF872DA2936B00B0CDA1 /* Release */,
+				3AF6762F2DA2E0C90036D280 /* Debug */,
+				3AF676302DA2E0C90036D280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
