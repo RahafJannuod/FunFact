@@ -10,5 +10,5 @@ The app includes UI tests to ensure all elements are functioning properly.
 These tests verify the interaction with buttons and ensure that facts are displayed correctly,
 providing a seamless user experience.
 
-![Fun Fact Image]((https://raw.githubusercontent.com/RahafJannuod/FunFact/42afb3736e4d10fa8688a8c30b393c8d13182850/yelloe1.jpeg)
+![Fun Fact Image](https://raw.githubusercontent.com/RahafJannuod/FunFact/42afb3736e4d10fa8688a8c30b393c8d13182850/yelloe1.jpeg)
 
