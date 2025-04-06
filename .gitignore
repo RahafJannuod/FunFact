@@ -1,0 +1,28 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.swp
+*.tmp
+*.log
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
