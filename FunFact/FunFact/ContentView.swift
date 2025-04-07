@@ -38,8 +38,7 @@ struct ContentView: View {
                         .resizable()
                         .cornerRadius(11)
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 300, height: 300)
-                    
+                       
                     
                     HStack(spacing: 20) {
                         Button(action: {
@@ -76,7 +75,6 @@ struct ContentView: View {
                         }
                     }
                     
-                  
                     NavigationLink(destination: AboutView()) {
                         Text("About")
                             .fontWeight(.heavy)
@@ -86,9 +84,9 @@ struct ContentView: View {
                             .cornerRadius(10)
                     }
                     .padding(.top, 20)
+                    .padding(.bottom,10)
                 }
             }
-//            .navigationTitle("Home")
         }
     }
 }
