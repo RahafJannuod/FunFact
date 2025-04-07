@@ -17,12 +17,29 @@ struct ContentView: View {
                         .multilineTextAlignment(.leading)
                     
                     Text(displayText)
-                        .font(.largeTitle)
+                        .font(.title2)
+                        .multilineTextAlignment(.center)
+                        .lineLimit(3)
+                        .minimumScaleFactor(0.5)
+                        .frame(height: 100)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(
+                                Image("sun2")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .clipped()
+                            )
+                        .cornerRadius(20)
+                        .padding(.top, 0)
+                    
                     
                     Image("yelloe1")
                         .resizable()
                         .cornerRadius(11)
                         .aspectRatio(contentMode: .fit)
+                        .frame(width: 300, height: 300)
+                    
                     
                     HStack(spacing: 20) {
                         Button(action: {
