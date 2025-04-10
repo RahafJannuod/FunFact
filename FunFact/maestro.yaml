@@ -1,0 +1,16 @@
+# maestro.yaml
+
+appId: Rahafjd.FunFact
+---
+- launchApp
+- tapOn: "Fact 1"
+- assertVisible: "Sharks existed before trees"
+
+- tapOn: "Fact 2"
+- assertVisible: "A chicken once lived for 18 months without a head!"
+
+- tapOn: "Fact 3"
+- assertVisible: "A snail can sleep for three years"
+
+- tapOn: "About"
+- assertVisible: "About This App"

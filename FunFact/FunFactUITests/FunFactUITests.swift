@@ -10,11 +10,11 @@ final class FunFactsAppUITests: XCTestCase {
     }
 
     func test_facts() {
-        verifyFact(forButton: "Fact 1", expectedText: "The largest piece of fossilised dinosaur poo discovered is over 30cm long and over two litres in volume!")
+        verifyFact(forButton: "Fact 1", expectedText: "Sharks existed before trees")
 
         verifyFact(forButton: "Fact 2", expectedText: "A chicken once lived for 18 months without a head!")
 
-        verifyFact(forButton: "Fact 3", expectedText: "Animals can experience time differently from humans!")
+        verifyFact(forButton: "Fact 3", expectedText: "A snail can sleep for three years")
         
         verifyFact(forButton: "About", expectedText: "About This App")
     }

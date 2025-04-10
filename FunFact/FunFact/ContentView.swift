@@ -42,12 +42,12 @@ struct ContentView: View {
                     
                     HStack(spacing: 20) {
                         Button(action: {
-                            displayText = "The largest piece of fossilised dinosaur poo discovered is over 30cm long and over two litres in volume!"
+                            displayText = "Sharks existed before trees"
                         }) {
                             Text("Fact 1")
                                 .fontWeight(.heavy)
                                 .padding()
-                                .background(Color.blue)
+                                .background(Color.blue.opacity(0.5))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
@@ -58,28 +58,29 @@ struct ContentView: View {
                             Text("Fact 2")
                                 .fontWeight(.heavy)
                                 .padding()
-                                .background(Color.pink)
+                                .background(Color.red.opacity(0.6))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
                         
                         Button(action: {
-                            displayText = "Animals can experience time differently from humans!"
+                            displayText = "A snail can sleep for three years"
                         }) {
                             Text("Fact 3")
                                 .fontWeight(.heavy)
                                 .padding()
-                                .background(Color.green)
+                                .background(Color.brown.opacity(0.7))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
+                        .accessibilityIdentifier("fact3_button")
                     }
                     
                     NavigationLink(destination: AboutView()) {
                         Text("About")
                             .fontWeight(.heavy)
                             .padding()
-                            .background(Color.black)
+                            .background(Color.black.opacity(0.8))
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     }
