@@ -12,4 +12,4 @@ providing a seamless user experience.
 
 ![Fun Fact Image](https://raw.githubusercontent.com/RahafJannuod/FunFact/42afb3736e4d10fa8688a8c30b393c8d13182850/yelloe1.jpeg)
 
-![FunFact video](https://drive.google.com/file/d/1uuU3TrVc6MiBp5WjzB4zc7mFR5Syihxd/view?usp=sharing)
+![FunFact video](https://drive.google.com/file/d/1uuU3TrVc6MiBp5WjzB4zc7mFR5Syihxd/view?usp=drive_link)
