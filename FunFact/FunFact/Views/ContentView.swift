@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var displayText = "the fact is:"
+    @State private var displayText = NSLocalizedString("initial", comment: "")
     
     var body: some View {
         NavigationView {
@@ -10,7 +10,8 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Text("Fun Facts App")
+                    Text(Locale.current.identifier)
+                    Text(LocalizedStringKey("app tiltle"))
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(.red)
@@ -42,9 +43,9 @@ struct ContentView: View {
                     
                     HStack(spacing: 20) {
                         Button(action: {
-                            displayText = "Sharks existed before trees"
+                            displayText = NSLocalizedString("fact_1_text", comment: "")
                         }) {
-                            Text("Fact 1")
+                            Text(LocalizedStringKey("fact_1"))
                                 .fontWeight(.heavy)
                                 .padding()
                                 .background(Color.blue.opacity(0.5))
@@ -53,9 +54,9 @@ struct ContentView: View {
                         }
                         
                         Button(action: {
-                            displayText = "A chicken once lived for 18 months without a head!"
+                            displayText = NSLocalizedString("fact_2_text", comment: "")
                         }) {
-                            Text("Fact 2")
+                            Text(LocalizedStringKey("fact_2"))
                                 .fontWeight(.heavy)
                                 .padding()
                                 .background(Color.red.opacity(0.6))
@@ -64,20 +65,20 @@ struct ContentView: View {
                         }
                         
                         Button(action: {
-                            displayText = "A snail can sleep for three years"
+                            displayText = NSLocalizedString("fact_3_text", comment: "")
                         }) {
-                            Text("Fact 3")
+                            Text(LocalizedStringKey("fact_3"))
                                 .fontWeight(.heavy)
                                 .padding()
                                 .background(Color.brown.opacity(0.7))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
-                        .accessibilityIdentifier("fact3_button")
+//                        .accessibilityIdentifier("fact3_button")
                     }
                     
                     NavigationLink(destination: AboutView()) {
-                        Text("About")
+                        Text(LocalizedStringKey("about"))
                             .fontWeight(.heavy)
                             .padding()
                             .background(Color.black.opacity(0.8))

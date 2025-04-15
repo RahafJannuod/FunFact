@@ -1,0 +1,21 @@
+//HOME SCREEN
+"app tiltle" = "Fun Facts App";
+"initial" = "the fact is:";
+"fact_1" = "Fact 1";
+"fact_1_text" = "Sharks existed before trees";
+"fact_2" = "Fact 2";
+"fact_2_text" = "A chicken once lived for 18 months without a head!";
+"fact_3" = "Fact 3";
+"fact_3_text" = "A snail can sleep for three years";
+"about" = "About";
+//ABOUT SCREEN
+"about" = "About";
+"about This App" = "About This App";
+"about_description" = "🟡 This app provides fun facts about different topics in a fun and interactive way.";
+"about_app_version" = "📱 Version: 1.0";
+"about_developer_name" = "👩‍💻 Developed by: Rahaf Jannuod";
+"about_creation_date" = "🗓️ Created in February 2025 as part of my SwiftUI learning journey.";
+"about_tech_stack" = "🛠️ Built using Xcode & SwiftUI.";
+"about_github_description" = "✅ You can find the test code and project files on GitHub:";
+"about_github_link" = "👉 View it on GitHub";
+
