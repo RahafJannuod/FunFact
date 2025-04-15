@@ -10,7 +10,6 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 VStack {
-                    Text(Locale.current.identifier)
                     Text(LocalizedStringKey("app tiltle"))
                         .font(.largeTitle)
                         .fontWeight(.bold)
@@ -52,6 +51,7 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
+                        .accessibilityIdentifier("fact1_button")
                         
                         Button(action: {
                             displayText = NSLocalizedString("fact_2_text", comment: "")
@@ -63,6 +63,7 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
+                        .accessibilityIdentifier("fact2_button")
                         
                         Button(action: {
                             displayText = NSLocalizedString("fact_3_text", comment: "")
@@ -74,7 +75,7 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
-//                        .accessibilityIdentifier("fact3_button")
+                        .accessibilityIdentifier("fact3_button")
                     }
                     
                     NavigationLink(destination: AboutView()) {
@@ -85,6 +86,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     }
+                    .accessibilityIdentifier("About_button")
                     .padding(.top, 20)
                     .padding(.bottom,10)
                 }
